@@ -18,7 +18,12 @@ yarn start
 
 `[important]` Make sure you have a MongoDB server running on your machine.
 You can use a cloud service like MongoDB Atlas.
-And update the `backend/.env` file with your MongoDB connection string.
+Create the `backend/.env` with 3 variables:
+```angular2html
+PORT=4000
+MONGO_URI=your_mongodb_uri
+SECRET=your_secret_key_here
+```
 
 example:
 
